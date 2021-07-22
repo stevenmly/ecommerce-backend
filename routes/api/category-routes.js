@@ -14,7 +14,7 @@ router.get('/', (req, res) => {
       }
     ]
   })
-  .then(categoryData => res.jsoin(categoryData))
+  .then(categoryData => res.json(categoryData))
     .catch(err => {
       console.log(err);
       res.status(500).json(err);
@@ -35,7 +35,7 @@ router.get('/:id', (req, res) => {
       }
     ]
   })
-  .then(productData => res.jsoin(productData))
+  .then(productData => res.json(productData))
     .catch(err => {
       console.log(err);
       res.status(500).json(err);
@@ -47,7 +47,7 @@ router.post('/', (req, res) => {
   Category.create({
     category_name: req.body.category_name,
   })
-  .then(categoryData => res.jsoin(categoryData))
+  .then(categoryData => res.json(categoryData))
     .catch(err => {
       console.log(err);
       res.status(500).json(err);
