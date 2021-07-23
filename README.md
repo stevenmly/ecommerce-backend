@@ -5,6 +5,9 @@
   ## Description
   #### This project contains the back end for an e-commerce site. It uses MySQL2 and Sequelize packages to connect to a MySQL database. The dotenv package is also used in this project to use environment variables to store sensitive data.
   ---
+  ## Demo Video
+  #### https://drive.google.com/file/d/13GDrViMuEIM9iMlUq92435WKMp0v63D_/view
+  ---
   ## Table of Contents
   - [Installation](#installation)
   - [Usage](#usage)
